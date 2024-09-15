@@ -4,3 +4,10 @@ Develop a program that asks the user for an integer 4-digit number and calculate
 3 + 1 + 4 + 1 = 9
 
 """
+num = int(input())
+sum = 0
+while num > 0:
+    sum += num % 10
+    num //= 10
+print(sum)
+  
